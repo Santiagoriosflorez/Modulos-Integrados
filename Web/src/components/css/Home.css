@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.container {
+  display: flex;
+  font-family: "PT Serif", serif;
+  background-color: #000000;
+  color: #fff;
+  align-items: center;
+  font-size: 24px;
+  padding: 50px 0;
+}
+
+.Container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.Container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.Img {
+  margin-bottom: -14px;
+  width: 200px;
+  height: 200px;
+}

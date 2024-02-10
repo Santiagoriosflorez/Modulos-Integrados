@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap");
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  align-items: center;
+}
+
+.sidebar-toggle-button {
+  padding: 5px 15px;
+  background-color: #dbd5d5;
+  color: rgb(0, 38, 255);
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+.sidebar {
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  transition: transform 1s cubic-bezier(0.42, 0, 1, -0.07);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 9px;
+  background-color: rgb(0, 38, 255);
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.sidebar-close-button {
+  padding: 6px;
+  margin: 5px 15px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sidebar-options {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sidebar-option:hover {
+  background-color: #f5f5f5;
+}
+
+.sidebar-open {
+  transform: translateX(0);
+  left: 85%;
+  z-index: 5;
+}
+
+.Text {
+  position: relative;
+  top: -84px;
+  font-size: 1.2rem;
+}
+
+.Text2 {
+  position: relative;
+  top: -88px;
+  font-size: 1.2rem;
+  z-index: -1;
+}
+
+.icon {
+  position: relative;
+  top: -2px;
+  margin: 0 9px;
+  height: 25px;
+  width: 25px;
+  color: rgb(0, 38, 255);
+}
